@@ -1,0 +1,68 @@
+<style>
+nav ul {
+  display: flex;
+  justify-content: space-evenly; /* 等間隔で配置 */
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+nav ul li a {
+  display: inline-block;
+  padding: 12px 20px;
+  text-decoration: none;
+  color: #0a2540;
+  font-weight: 600;
+  transition: 0.3s;
+}
+nav ul li a:hover {
+  color: #0077b6;
+}
+nav ul li:last-child a {
+  background-color: #0077b6;
+  color: white;
+  border-radius: 8px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 32px;
+  border-bottom: 1px solid #e6ebf0;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.brand img {
+  height: 56px;
+  border-radius: 12px;
+}
+.brand h1 {
+  font-size: 22px;
+  color: #0a2540;
+  font-weight: 800;
+}
+</style>
+
+<header>
+  <div class="brand">
+    <img src="logo.png" alt="道南支部ロゴ" />
+    <h1>北海道理学療法士会 道南支部</h1>
+  </div>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#intro">支部紹介</a></li>
+    <li><a href="#activities">活動・事業</a></li>
+    <li><a href="#news">お知らせ</a></li>
+    <li><a href="#members">役員</a></li>
+    <li><a href="#join">入会案内</a></li>
+    <li><a href="#contact">お問い合わせ</a></li>
+  </ul>
+</nav>
